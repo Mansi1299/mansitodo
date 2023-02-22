@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mansitodo/static/css/main.e6c13ad2.css",
+    "main.js": "/mansitodo/static/js/main.925344fd.js",
+    "static/js/787.da51eda1.chunk.js": "/mansitodo/static/js/787.da51eda1.chunk.js",
+    "index.html": "/mansitodo/index.html",
+    "main.e6c13ad2.css.map": "/mansitodo/static/css/main.e6c13ad2.css.map",
+    "main.925344fd.js.map": "/mansitodo/static/js/main.925344fd.js.map",
+    "787.da51eda1.chunk.js.map": "/mansitodo/static/js/787.da51eda1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.925344fd.js"
+  ]
+}
