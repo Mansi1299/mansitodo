@@ -1,18 +1,13 @@
 //import logo from './logo.svg';
 
 import { useState } from "react";
-// import Edit from './Component/edit';
+
 import Todo from './Component/Todo';
 import Todolists from './Component/Todolists';
 import './App.css';
 function App() {
   const [list, setList] = useState([]);
-  // const [editingTask, setEditingTask] = useState(null);       
-  // const [editingTaskText, setEditingTaskText] = useState('');
-  // const startEditingTask = (index) => {
-  //   setEditingTask(index);
-  //   setEditingTaskText(tasks[index].task);
-  // };
+ 
   let add = (uInput) => {
 
     if (uInput !== '') {
@@ -23,12 +18,7 @@ function App() {
     else {
       alert("Type Something");
     }
-    // alert("Enter Something");
-    //     <div claconst [editingTask, setEditingTask] = useState(null);
-    // const [editingTaskText, setEditingTaskText] = useState('');ssName="alert alert-primary" role="alert">
-    //   //   A simple primary alert—check it out!
-    //   // </div>
-    // }
+    
   }
   const deleteitemli = (key) => {
     let newlisttodo = [...list];
@@ -61,6 +51,34 @@ function App() {
 }
 
 export default App;
+// import { useState } from "react";
+// import { useEffect } from "react";
 
 
+// function App() {
+//   const [count,setCount]=useState(200);
+//   const [data,setData]=useState(100);
+  // useEffect(() => { 
+  //   console.log("This code will execute when the component is mounted");
+   
+  //  },[count]);
+  //  useEffect(() => { 
+  //   console.log(" code ");
+  
+  //  },[data]);
 
+//   useEffect(() => { return () => { console.log("Behavior right before the component is removed from the DOM."); } }, []);
+
+
+//   return (
+// <>
+//  <h1> Hello World! </h1>; 
+//  <h1>count {count}</h1>
+//  <h1>data {data}</h1>
+// <button onClick={()=>setCount(count+1)}>click {count}</button>
+// <button onClick={()=>setData(data+1)}>click data{data}</button>
+// </>
+//   );
+// }
+
+// export default App;
