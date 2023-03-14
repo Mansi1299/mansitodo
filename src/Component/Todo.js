@@ -6,9 +6,9 @@ function Todo(props) {
     <div className="todo" >
       {/* <h1 >This is Todo List</h1> */}
       <div style={{ backgroundColor: '   #202b35', padding: '3px' ,width:"100%" }}>
-        <h1 style={{ padding:"2px",margin:'15px', color: "white" }}>To Do List <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-    99+
-    <span class="visually-hidden">unread messages</span>
+        <h1 style={{ padding:"2px",margin:'15px', color: "white" }}>To Do List <span class="position-absolute ">
+    
+    
   </span></h1></div>
       <input type="text" className='input-box' placeholder='Enter Anything' style={{padding:'8px' , margin:"20px", width: "92%" }}
         value={uInput}
